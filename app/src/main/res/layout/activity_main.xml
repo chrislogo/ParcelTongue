@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="group.project2.MainActivity">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:name="group.project2.ButtonFragment"
+        android:id="@+id/buttonfragment"
+        android:tag="BUTTON_FRAGMENT" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="group.project2.ChatListFragment"
+        android:id="@+id/chatlistfragment"
+        android:layout_weight="1"
+        android:tag="CHATLIST_FRAGMENT" />
+
+</LinearLayout>
