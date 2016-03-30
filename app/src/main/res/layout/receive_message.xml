@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
@@ -26,7 +26,6 @@
 
     </LinearLayout>
 
-=======
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
@@ -54,5 +53,4 @@
 
     </LinearLayout>
 
->>>>>>> c9d8335f306ffb79dd06260acf24cc72a5f14f97
 </LinearLayout>
