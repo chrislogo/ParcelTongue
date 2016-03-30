@@ -23,13 +23,13 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
-<<<<<<< HEAD
+
     compile 'com.android.support:appcompat-v7:23.2.0'
     compile 'com.android.support:support-v4:23.2.0'
     compile 'com.android.support:design:23.2.0'
-=======
+
     compile 'com.android.support:appcompat-v7:23.1.1'
     compile 'com.android.support:support-v4:23.1.1'
     compile 'com.android.support:design:22.2.0'
->>>>>>> c9d8335f306ffb79dd06260acf24cc72a5f14f97
+
 }
