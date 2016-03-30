@@ -17,8 +17,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
-=======
+
         <provider
             android:authorities="group.project2"
             android:name=".MyContentProvider"
@@ -26,7 +25,6 @@
             android:readPermission="group.project2"
             android:writePermission="group.project2"
             />
->>>>>>> c9d8335f306ffb79dd06260acf24cc72a5f14f97
         <activity
             android:name=".ChatActivity"
             android:label="@string/title_activity_chat"
